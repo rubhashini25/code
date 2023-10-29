@@ -1,0 +1,272 @@
+<html>
+<head>
+	<style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+      ul{
+      	list-style-type:none;
+      	padding:0px;
+      	margin:0px;
+      	line-height: 60px;
+      	padding: 8px;
+      	letter-spacing: 3px;
+        position:sticky;
+        top:0px;
+        background-color: white; 
+        z-index: 1;
+      }
+      li{
+      	display:inline-block;
+      }
+      .one{
+      	margin-right:600px;
+      	margin-left:70px;
+      }
+      .two{
+      	margin-right:60px;
+      	min-width:80px;
+      	text-align: center;
+      }
+      .two:hover{
+      	background:silver;
+      }
+
+      .image1{
+      	background-image: url('https://www.w3schools.com/w3images/hamburger.jpg');
+      	   width:100%;
+      	   height:800px;
+      	   background-repeat:no-repeat;
+      	   background-size:100% 100%;
+      	   margin-top: 0px;
+           position:relative;
+           margin-bottom:70px;
+      }
+      .name{
+      	letter-spacing: 3px;
+      	font-size:30px;
+      	color:#333;
+        position:absolute;
+        bottom:0px;
+      }
+
+      .image2{
+        float :left;
+        margin-left:140px;
+        background-image : url('https://www.w3schools.com/w3images/tablesetting2.jpg');
+        width:30%;
+        height:500px;
+        background-size:100% 100%;
+        opacity:0.7;
+        margin-right:60px;
+      }
+
+      .head1,.head3{
+           letter-spacing:3px;
+           font-family:bookman old style;
+           margin-top:30px;
+           font-size:35px;
+           text-align: center;
+      }
+    
+     .para1 {
+        text-align:center;
+        width:600px;
+        display:inline-block;
+        margin-bottom:130px;
+     }
+     .head2{
+        text-align:center;
+        margin-top:50px;
+        letter-spacing:2px;
+        font-size:18px;
+        word-spacing:4px;
+        margin-right:40px;
+        margin-bottom:20px;
+      }
+      .content1,.content2{
+        font-size:19px;
+        text-align:left;
+        margin-bottom:30px;
+      }
+      .content2{
+        color:silver;
+      }
+      span{
+        background-color: silver;
+      }
+      .border{
+        border-bottom:1px solid silver;
+        width:85%;
+        margin-left:120px;
+        margin-bottom:100px;
+      }
+      .image3{
+        background-image:url('https://www.w3schools.com/w3images/tablesetting.jpg');
+        float:right;
+        margin-right:30px;
+        opacity:0.7;
+        width:450px;
+        height:600px;
+        background-size:100% 100%;
+        margin-right:160px;
+      }
+
+      .para2{
+        margin-top:120px;
+        margin-bottom:180px;
+      }
+      .para3{
+        margin-top:40px;
+        margin-left:90px;
+      }
+
+      .n1,.n2,.n3,.n4,.n5{
+          font-size:20px;
+          letter-spacing: 5px;
+          word-spacing: 3px;
+          margin-bottom:18px;
+      }
+
+      .c1,.c2,.c3,.c4,.c5{
+        color: silver;
+        font-size:15px;
+        margin-bottom:30px;
+      }
+
+      .para4{
+        width:80%;
+        margin-left:90px;
+      }
+   
+     .para4 .para5{
+        font-size:35px;
+        letter-spacing: 3px;
+        font-family: bookman old style;
+        margin-bottom:60px;
+     }
+
+     #color{
+        margin:30px 0px;
+        font-size:18px;
+        color:#0b7a59;
+     }
+
+      .details{
+        margin-top:30px;
+        width:100%;
+        height:50px;
+        border:none;
+        border-bottom:1px solid silver;
+     }
+
+     .submit{
+        margin:20px 0px;
+        padding:20px;
+        border:none;
+        margin-bottom:100px;
+     }
+
+     .submit:hover{
+        background-color:silver;
+     }
+
+     footer{
+        text-align:center;
+        height:100px;
+        background-color:silver;
+        line-height:100px;
+     }
+
+     a{
+         color:black;
+     }
+
+     a:hover{
+        color:#2ebf95;
+     }
+      
+	</style>
+</head>
+<body>
+	<ul>
+		<li class="one">Gourmet au Catering</li>
+		<li class="two">About</li>
+		<li class="two">Menu</li>
+		<li class="two">Contact</li>
+	</ul>
+
+	<div class = "image1">
+     <p class="name">Le Catering</p>
+    </div>
+
+    <div class="image2">
+    </div>
+
+    <div class="para1">
+       <p class ="head1"> About Catering</p>
+       <p class="head2">Tradition since 1889</p>
+       <p class="content1">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span>seasonal</span> ingredients.
+
+        <p class="content2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="border"></div>
+
+    <div class="image3">
+    </div>
+
+    <div class="para2">
+     <p class="head3">Our Menu</p>
+      <div class="para3">
+      <div class="n1">Bread Basket</div>
+      <p class="c1">Assortment of fresh baked fruit breads and muffins 5.50</p>
+
+      <div class="n2">Honey Almond Granola with Fruits</div>
+      <p class="c2">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+
+      <div class="n3">Belgian Waffle</div>
+      <p class="c3">Vanilla flavored batter with malted flour 7.50</p>
+
+      <div class="n4">Scrambled eggs</div>
+      <p class="c4">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+
+      <div class="n5">Blueberry Pancakes</div>
+      <p class="c5">With syrup, butter and lots of berries 8.50</p>
+
+   </div>
+    </div>
+
+    <div class="border"></div>
+     
+     <div class="para4">
+     <p class="para5">Contact</p>
+     <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+
+     <div id="color">Catering Service, 42nd Living St, 43043 New York, NY</div>
+
+     <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    </div>
+
+
+    <div class="para4">
+    <form>
+        <input type="text"    class="details" placeholder="   Name" required>
+
+        <input type="number"  class="details" placeholder="   How many people" required>
+
+        <input type="datetime-local"  class="details"   required>
+
+        <input type="text"   class="details" placeholder="   Message/Special requirements" required>
+
+        <input type = "submit"  class="submit" value="SEND MESSAGE">
+
+    </form>
+</div>
+
+<footer>  Powered by <a href="#">w3.css</a> </footer>
+
+
+</body>
+</html>
